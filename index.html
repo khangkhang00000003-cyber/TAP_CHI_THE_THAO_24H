@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tạp chí thể thao 24h | Tin thể thao & sống khỏe</title>
+  <meta name="description" content="Tạp chí thể thao 24h cập nhật tin thể thao, hướng dẫn chạy bộ, gym, pickleball, dinh dưỡng, phục hồi và đánh giá trang bị vận động.">
+  <meta name="keywords" content="tạp chí thể thao 24h, tin thể thao, chạy bộ, gym fitness, pickleball, dinh dưỡng thể thao, đánh giá giày chạy bộ, sống khỏe">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta name="theme-color" content="#0B3D91">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="vi_VN">
+  <meta property="og:site_name" content="Tạp chí thể thao 24h">
+  <meta property="og:title" content="Tạp chí thể thao 24h | Tin thể thao & sống khỏe">
+  <meta property="og:description" content="Tin thể thao, cẩm nang vận động, dinh dưỡng và sống khỏe mỗi ngày.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1772475625548-7e90baff34e7?auto=format&amp;fit=crop&amp;w=1500&amp;q=85">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Sau khi tạo GitHub Pages riêng cho tạp chí, thêm canonical và URL xuất bản chính thức tại đây. -->
+  <script type="application/ld+json">{
+    "@context":"https://schema.org",
+    "@type":"CollectionPage",
+    "name":"Tạp chí thể thao 24h",
+    "description":"Tin thể thao, hướng dẫn vận động, dinh dưỡng, phục hồi và phong cách sống khỏe.",
+    "inLanguage":"vi-VN",
+    "publisher":{"@type":"Organization","name":"Tạp chí thể thao 24h"}
+  }</script>
+  <style>
+    :root { --navy:#10233F; --deep:#0B3D91; --blue:#1769E0; --sky:#4DA3FF; --pale:#EAF4FF; --lime:#B7F34A; --text:#10233F; --muted:#71839D; --line:#DDEAF7; --white:#FFFFFF; --shadow:0 10px 30px rgba(11,61,145,.07); }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; scroll-padding-top:110px; }
+    body { margin:0; font-family:Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,"Segoe UI",sans-serif; background:light-dark(#ffffff,#ffffff); color:var(--text); }
+    button,input { font:inherit; }
+    button,a { -webkit-tap-highlight-color:transparent; }
+    a { color:inherit; text-decoration:none; }
+    button { cursor:pointer; }
+    .shell { width:min(1280px,calc(100% - 48px)); margin:0 auto; }
+    .site-header { position:relative; z-index:20; background:rgba(255,255,255,.97); border-bottom:1px solid #e8eef6; }
+    .topline { min-height:78px; display:flex; align-items:center; gap:28px; }
+    .brand { flex:0 0 300px; display:inline-flex; align-items:center; gap:10px; }
+    .brand-mark { display:grid; place-items:center; width:49px; height:49px; border-radius:15px; transform:skew(-5deg); color:var(--lime); background:var(--navy); font-size:30px; font-weight:1000; letter-spacing:-3px; box-shadow:inset 0 -4px 0 rgba(255,255,255,.06); }
+    .brand-name { font-size:22px; font-weight:950; line-height:1; letter-spacing:-.8px; color:var(--navy); white-space:nowrap; }
+    .brand-name span { color:var(--blue); }
+    .brand-tagline { display:block; margin-top:6px; font-size:9px; font-weight:800; letter-spacing:1.4px; color:#7588A2; white-space:nowrap; }
+    .search-form { display:flex; flex:1; max-width:650px; height:48px; border:1px solid #dfebf7; border-radius:15px; overflow:hidden; background:#f4f8fc; }
+    .search-form input { width:100%; min-width:0; background:transparent; border:0; outline:0; padding:0 20px; color:var(--text); font-size:14px; }
+    .search-form input::placeholder { color:#7f8da0; }
+    .search-form button { width:58px; border:0; color:#fff; background:var(--blue); font-size:22px; transition:.2s; }
+    .search-form button:hover { background:var(--deep); }
+    .nav-row { border-top:1px solid #f0f3f7; }
+    .nav-inner { min-height:52px; display:flex; align-items:center; gap:10px; overflow-x:auto; scrollbar-width:none; }
+    .nav-inner::-webkit-scrollbar { display:none; }
+    .nav-link { flex:none; padding:12px 18px; border-radius:12px; color:#263d5d; font-size:13px; font-weight:750; transition:.2s; white-space:nowrap; }
+    .nav-link:hover { color:var(--blue); background:#f0f7ff; }
+    .nav-link.active { color:#fff; background:var(--blue); box-shadow:0 6px 14px rgba(23,105,224,.2); }
+    .mobile-search { display:none; }
+    .editorial-hero { margin-top:25px; position:relative; min-height:300px; overflow:hidden; border-radius:28px; background:linear-gradient(105deg,#f1f8ff 0%,#e7f3ff 57%,#c9e4ff 100%); isolation:isolate; }
+    .hero-copy { position:relative; z-index:3; width:59%; padding:44px 0 38px 48px; }
+    .eyebrow { display:flex; align-items:center; gap:10px; color:#76b91d; font-size:12px; font-weight:900; letter-spacing:2px; text-transform:uppercase; }
+    .eyebrow:before { content:""; width:19px; height:3px; background:var(--lime); display:inline-block; }
+    h1 { margin:23px 0 10px; max-width:730px; color:var(--navy); font-size:clamp(38px,4.25vw,62px); line-height:.99; letter-spacing:-2.7px; font-weight:950; }
+    h1 em { color:#8bcf25; font-style:normal; }
+    .hero-subtitle { margin:14px 0 20px; color:#355a8c; font-size:16px; font-weight:650; }
+    .hero-subtitle span { padding:0 9px; color:#85a8d5; }
+    .button-lime { display:inline-flex; align-items:center; justify-content:center; gap:9px; min-height:43px; padding:0 22px; border:0; border-radius:999px; background:var(--lime); color:var(--navy); font-size:13px; font-weight:900; box-shadow:0 7px 14px rgba(128,194,30,.13); transition:transform .2s,box-shadow .2s; }
+    .button-lime:hover { transform:translateY(-2px); box-shadow:0 10px 18px rgba(128,194,30,.22); }
+    .hero-image { position:absolute; z-index:1; top:0; right:0; width:48%; height:100%; object-fit:cover; object-position:center 36%; clip-path:polygon(29% 0,100% 0,100% 100%,0 100%,6% 42%); }
+    .hero-overlay { position:absolute; z-index:2; inset:0; pointer-events:none; background:linear-gradient(90deg,rgba(241,248,255,0) 45%,rgba(220,239,255,.08) 60%,rgba(23,105,224,.06)); }
+    .hero-decoration { position:absolute; right:31%; top:-80px; height:450px; width:110px; border-left:20px solid rgba(77,163,255,.13); transform:skew(-29deg); }
+    .hero-bottom-note { position:absolute; z-index:4; right:23px; bottom:20px; display:flex; align-items:center; gap:8px; padding:11px 15px; border:1px solid rgba(255,255,255,.65); border-radius:13px; background:rgba(255,255,255,.88); color:var(--deep); font-size:11px; font-weight:900; backdrop-filter:blur(9px); }
+    .categories { display:flex; gap:9px; padding:20px 2px 29px; overflow-x:auto; scrollbar-width:none; }
+    .categories::-webkit-scrollbar { display:none; }
+    .category-pill { flex:none; padding:10px 17px; background:#fff; border:1px solid #dce9f7; border-radius:999px; color:#436080; font-size:12px; font-weight:750; transition:.2s; white-space:nowrap; }
+    .category-pill:hover,.category-pill.active { border-color:var(--blue); background:var(--blue); color:white; box-shadow:0 5px 12px rgba(23,105,224,.15); }
+    .section { margin-bottom:29px; }
+    .section-heading { margin:0 0 16px; display:flex; align-items:center; gap:11px; }
+    .section-heading h2 { margin:0; font-size:clamp(23px,2.1vw,29px); line-height:1.1; font-weight:950; letter-spacing:-.75px; color:var(--navy); }
+    .section-heading:before { content:""; height:24px; width:7px; background:var(--lime); transform:skew(-18deg); }
+    .section-spacer { flex:1; }
+    .view-all { border:0; background:transparent; color:#244c7d; font-size:12px; font-weight:800; padding:8px 0 8px 10px; }
+    .view-all:hover { color:var(--blue); }
+    .feature-layout { display:grid; grid-template-columns:minmax(0,1.95fr) minmax(260px,.82fr); gap:20px; }
+    .feature-main { display:grid; grid-template-columns:48% 52%; overflow:hidden; border:1px solid #e1edf9; border-radius:17px; background:linear-gradient(110deg,#fff,#f2f8ff); min-height:255px; }
+    .feature-image { min-height:255px; width:100%; height:100%; object-fit:cover; object-position:center; }
+    .feature-text { padding:23px 24px; display:flex; flex-direction:column; align-items:flex-start; justify-content:center; }
+    .red-label { background:#ff514a; color:#fff; display:inline-flex; border-radius:6px; padding:5px 9px; font-size:10px; line-height:1; font-weight:900; letter-spacing:.5px; }
+    .feature-text h3 { margin:12px 0 11px; font-size:clamp(21px,2.1vw,29px); letter-spacing:-.9px; line-height:1.12; font-weight:950; }
+    .feature-text p { margin:0 0 13px; max-width:430px; color:#637995; line-height:1.65; font-size:12px; }
+    .meta-line { display:flex; flex-wrap:wrap; gap:9px; color:#768ba6; font-size:10px; align-items:center; }
+    .feature-text .button-lime { margin-top:16px; min-height:38px; font-size:12px; }
+    .feature-side { display:grid; gap:14px; }
+    .feature-mini { display:grid; grid-template-columns:44% 56%; overflow:hidden; min-height:120px; border:1px solid #e1edf9; border-radius:15px; background:linear-gradient(115deg,#fff,#eef7ff); }
+    .feature-mini img { width:100%; height:100%; min-height:120px; object-fit:cover; }
+    .feature-mini-copy { padding:13px 13px 10px; }
+    .tag { display:inline-flex; border-radius:999px; padding:5px 9px; background:#e1f0ff; color:#1769cf; font-size:10px; font-weight:850; line-height:1; }
+    .feature-mini h3 { margin:8px 0 9px; font-size:14px; line-height:1.28; letter-spacing:-.15px; font-weight:850; }
+    .feature-mini .meta-line { font-size:9px; }
+    .fast-news { padding:15px 17px 17px; border-radius:17px; background:linear-gradient(110deg,#eef8ff,#e5f2ff); border:1px solid #e2effb; }
+    .fast-news-head { display:flex; align-items:center; gap:9px; margin-bottom:13px; color:var(--blue); font-size:16px; font-weight:950; }
+    .fast-news-head .lightning { font-size:23px; }
+    .fast-news-items { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:16px; }
+    .fast-news-item { display:grid; grid-template-columns:82px 1fr; gap:12px; padding-right:12px; border-right:1px solid #d5e5f6; align-items:center; min-width:0; }
+    .fast-news-item:last-child { border-right:0; }
+    .fast-news-item img { width:82px; height:68px; border-radius:9px; object-fit:cover; }
+    .fast-news-item .news-time { color:#7c91aa; font-size:10px; margin-bottom:5px; }
+    .fast-news-item .news-time b { margin-right:5px; background:#ff5952; color:#fff; border-radius:4px; padding:3px 5px; font-size:9px; }
+    .fast-news-item button { display:block; border:0; padding:0; background:none; color:#254264; text-align:left; font-size:11px; font-weight:750; line-height:1.42; }
+    .fast-news-item button:hover { color:var(--blue); }
+    .latest-layout { display:grid; grid-template-columns:minmax(0,2.15fr) minmax(245px,.8fr); gap:22px; align-items:start; }
+    .section-heading.with-tabs { margin-bottom:19px; }
+    .sort-tabs { display:flex; align-items:center; gap:6px; margin-left:12px; padding:4px; background:#eff6fd; border-radius:999px; }
+    .sort-tab { border:0; padding:8px 13px; border-radius:999px; background:transparent; color:#56708f; font-size:11px; font-weight:800; }
+    .sort-tab.active { background:var(--blue); color:#fff; box-shadow:0 4px 9px rgba(23,105,224,.17); }
+    .article-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:16px; }
+    .article-card { overflow:hidden; border:1px solid #dceafa; border-radius:13px; background:white; box-shadow:0 2px 6px rgba(11,61,145,.025); transition:transform .2s,box-shadow .2s; display:flex; flex-direction:column; min-width:0; }
+    .article-card:hover { transform:translateY(-3px); box-shadow:var(--shadow); }
+    .image-button { position:relative; border:0; padding:0; display:block; width:100%; text-align:left; background:#e8f2fd; overflow:hidden; }
+    .image-button img { display:block; width:100%; height:145px; object-fit:cover; transition:transform .35s; }
+    .article-card:hover .image-button img { transform:scale(1.045); }
+    .image-arrow { position:absolute; right:10px; top:10px; width:28px; height:28px; border-radius:50%; display:grid; place-items:center; color:var(--navy); background:rgba(255,255,255,.9); opacity:0; transform:translateY(3px); transition:.2s; }
+    .article-card:hover .image-arrow { opacity:1; transform:translateY(0); }
+    .article-copy { padding:12px 13px 13px; display:flex; flex:1; flex-direction:column; }
+    .article-copy h3 { margin:9px 0 8px; font-size:15px; line-height:1.32; font-weight:900; letter-spacing:-.25px; }
+    .title-link { border:0; padding:0; color:inherit; background:none; text-align:left; font-weight:inherit; line-height:inherit; }
+    .title-link:hover { color:var(--blue); }
+    .article-copy p { margin:0 0 13px; color:#788da7; font-size:11px; line-height:1.55; }
+    .article-meta { display:flex; gap:7px; align-items:center; margin-top:auto; padding-top:11px; color:#7a91ac; font-size:10px; border-top:1px solid #f0f5fa; }
+    .side-stack { display:grid; gap:15px; }
+    .popular-box { padding:20px 19px; border-radius:17px; color:#fff; background:linear-gradient(145deg,#143c70,#09264d); box-shadow:0 10px 24px rgba(9,38,77,.15); }
+    .popular-box h3,.topic-box h3,.newsletter-box h3 { margin:0 0 14px; font-size:15px; font-weight:900; letter-spacing:.1px; }
+    .popular-list { list-style:none; padding:0; margin:0; }
+    .popular-list li+li { border-top:1px solid rgba(255,255,255,.17); }
+    .popular-list button { width:100%; min-height:56px; padding:10px 0; border:0; display:grid; grid-template-columns:38px 1fr; align-items:center; gap:12px; background:none; color:#f2f7ff; text-align:left; font-size:11px; font-weight:700; line-height:1.42; }
+    .popular-article-link { width:100%; min-height:56px; padding:10px 0; display:grid; grid-template-columns:38px 1fr; align-items:center; gap:12px; color:#f2f7ff; text-align:left; font-size:11px; font-weight:700; line-height:1.42; }
+    .popular-article-link:hover { color:var(--lime); }
+    .popular-number { display:grid; place-items:center; width:36px; height:36px; border-radius:50%; background:var(--lime); color:var(--navy); font-size:14px; font-weight:950; }
+    .popular-list button:hover { color:var(--lime); }
+    .topic-box { padding:17px 17px 18px; border:1px solid #e0edfa; border-radius:16px; background:#f2f8ff; }
+    .topic-list { display:flex; flex-wrap:wrap; gap:7px; }
+    .topic-list button { border:1px solid #d0e3f8; padding:7px 10px; border-radius:999px; color:#365a81; background:white; font-size:10px; font-weight:750; }
+    .topic-list button:hover { background:var(--blue); border-color:var(--blue); color:#fff; }
+    .newsletter-box { padding:18px; border:1px solid #e0edfa; border-radius:16px; background:linear-gradient(160deg,#f1f8ff,#e6f2ff); }
+    .newsletter-title { display:flex; gap:9px; align-items:flex-start; }
+    .newsletter-icon { font-size:20px; }
+    .newsletter-box h3 { margin-bottom:5px; }
+    .newsletter-box p { margin:0 0 12px; color:#7186a1; font-size:11px; line-height:1.5; }
+    .newsletter-box input { display:block; width:100%; height:39px; margin-bottom:9px; padding:0 12px; border:1px solid #cfe1f6; border-radius:9px; background:#fff; outline:none; font-size:11px; }
+    .newsletter-box input:focus { border-color:var(--blue); box-shadow:0 0 0 3px rgba(23,105,224,.1); }
+    .newsletter-box .button-lime { width:100%; min-height:38px; border-radius:9px; }
+    .form-message { margin-top:9px!important; font-size:11px!important; color:#0b6b37!important; }
+    .wellness-section { padding:18px 18px 17px; border:1px solid #e4f0fb; border-radius:18px; background:linear-gradient(105deg,#f0f8ff,#f7fbff); }
+    .wellness-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:17px; }
+    .wellness-card { overflow:hidden; border:1px solid #e1ebf6; border-radius:13px; background:#fff; }
+    .wellness-card img { display:block; width:100%; height:135px; object-fit:cover; }
+    .wellness-copy { padding:13px 14px 14px; }
+    .wellness-copy h3 { margin:8px 0 6px; font-size:15px; line-height:1.32; font-weight:900; }
+    .wellness-copy p { margin:0 0 8px; color:#7489a2; font-size:11px; line-height:1.55; }
+    .read-more { border:0; padding:0; background:none; color:var(--blue); font-size:11px; font-weight:900; }
+    .read-more:hover { color:var(--deep); }
+
+
+    .footer { color:#e8f2ff; background:linear-gradient(110deg,#10233f,#09284f); padding:31px 0 18px; }
+    .footer-grid { display:grid; grid-template-columns:1.5fr repeat(3,1fr); gap:28px; }
+    .footer .brand { flex-basis:auto; gap:8px; margin-bottom:12px; }
+    .footer .brand-mark { width:36px; height:36px; font-size:23px; border-radius:10px; }
+    .footer .brand-name { font-size:19px; color:#fff; }
+    .footer .brand-name span { color:var(--lime); }
+    .footer .brand-tagline { display:none; }
+    .footer-about p { max-width:220px; margin:0; color:#adc5e2; font-size:11px; line-height:1.6; }
+    .socials { display:flex; gap:8px; margin-top:15px; }
+    .socials a { width:29px; height:29px; display:grid; place-items:center; border:1px solid rgba(255,255,255,.23); border-radius:50%; font-size:11px; font-weight:900; }
+    .socials a:hover { background:var(--blue); }
+    .footer-col h4 { margin:4px 0 12px; color:#fff; font-size:12px; font-weight:900; }
+    .footer-col a { display:block; width:max-content; max-width:100%; margin:8px 0; color:#b5c9df; font-size:11px; }
+    .footer-col a:hover { color:var(--lime); }
+    .footer-bottom { display:flex; justify-content:space-between; gap:20px; margin-top:25px; padding-top:15px; border-top:1px solid rgba(255,255,255,.17); color:#a8bfd8; font-size:10px; }
+    .back-top { position:fixed; z-index:30; right:22px; bottom:22px; display:grid; place-items:center; width:43px; height:43px; border:1px solid #cfe1f3; border-radius:50%; background:#fff; color:var(--deep); font-size:20px; box-shadow:0 8px 24px rgba(16,35,63,.13); opacity:0; pointer-events:none; transform:translateY(10px); transition:.2s; }
+    .back-top.visible { opacity:1; pointer-events:auto; transform:translateY(0); }
+    .empty-state { display:none; grid-column:1/-1; padding:32px 20px; border:1px dashed #bfd6ef; border-radius:14px; color:#617995; text-align:center; background:#f7fbff; }
+    .result-note { margin:-8px 0 14px; color:#6f85a0; font-size:12px; }
+    .modal-backdrop { position:fixed; z-index:100; inset:0; display:none; align-items:center; justify-content:center; padding:20px; background:rgba(7,24,47,.65); backdrop-filter:blur(5px); }
+    .modal-backdrop.open { display:flex; }
+    .article-modal { position:relative; width:min(700px,100%); max-height:min(88vh,900px); overflow:auto; border-radius:20px; background:#fff; box-shadow:0 30px 90px rgba(0,0,0,.25); }
+    .modal-image { width:100%; height:250px; display:block; object-fit:cover; }
+    .modal-content { padding:25px 29px 30px; }
+    .modal-content h2 { margin:12px 0; color:var(--navy); font-size:clamp(23px,4vw,34px); letter-spacing:-.8px; line-height:1.15; }
+    .modal-content .modal-body { color:#465e7b; font-size:14px; line-height:1.8; white-space:pre-line; }
+    .modal-close { position:absolute; right:14px; top:14px; z-index:2; width:38px; height:38px; border:1px solid #fff; border-radius:50%; background:rgba(255,255,255,.94); color:var(--navy); font-size:22px; }
+    .sr-only { position:absolute!important; width:1px!important; height:1px!important; padding:0!important; margin:-1px!important; overflow:hidden!important; clip:rect(0,0,0,0)!important; white-space:nowrap!important; border:0!important; }
+    @media (min-width:1500px) { .shell { width:min(1320px,calc(100% - 64px)); } }
+    @media (max-width:1050px) {
+      .shell { width:calc(100% - 32px); } .topline { gap:15px; } .brand { flex-basis:285px; } .brand-name { font-size:21px; } .feature-layout { grid-template-columns:minmax(0,1.6fr) minmax(230px,.8fr); gap:14px; } .feature-main { grid-template-columns:44% 56%; } .feature-text { padding:18px; } .feature-mini h3 { font-size:12px; } .latest-layout { grid-template-columns:minmax(0,1fr) 230px; gap:16px; } .article-grid { gap:11px; } .article-copy { padding:11px; } .article-copy h3 { font-size:13px; } .article-copy p { font-size:10px; } .footer-grid { gap:18px; }
+    }
+    @media (max-width:760px) {
+      .shell { width:calc(100% - 28px); } .topline { min-height:68px; gap:12px; flex-wrap:wrap; padding:10px 0; } .brand { flex:1 0 250px; } .brand-mark { width:41px; height:41px; font-size:24px; } .brand-name { font-size:20px; } .search-form { display:none; } .mobile-search { display:flex; margin:2px 0 10px; width:100%; max-width:none; height:42px; } .nav-inner { min-height:48px; gap:3px; } .nav-link { padding:10px 13px; font-size:12px; } .editorial-hero { margin-top:16px; min-height:290px; border-radius:20px; } .hero-copy { width:100%; padding:30px 23px 25px; } h1 { max-width:420px; font-size:clamp(36px,8.5vw,53px); letter-spacing:-1.8px; margin-top:18px; line-height:1.01; } .hero-subtitle { max-width:330px; font-size:13px; line-height:1.55; } .hero-image { width:57%; opacity:.20; clip-path:none; object-position:center 32%; } .hero-overlay { background:linear-gradient(90deg,#eff7ff 0%,rgba(239,247,255,.9) 54%,rgba(239,247,255,.22)); } .hero-bottom-note { right:13px; bottom:13px; padding:8px 10px; font-size:9px; } .hero-decoration { display:none; } .categories { padding:15px 0 23px; gap:7px; } .category-pill { padding:9px 13px; font-size:11px; } .section { margin-bottom:24px; } .section-heading { gap:9px; } .section-heading h2 { font-size:23px; } .feature-layout,.latest-layout { grid-template-columns:1fr; } .feature-main { grid-template-columns:43% 57%; min-height:225px; } .feature-image { min-height:225px; } .feature-text { padding:14px; } .feature-text h3 { font-size:21px; } .feature-text p { font-size:11px; } .feature-side { grid-template-columns:1fr 1fr; } .feature-mini { grid-template-columns:1fr; } .feature-mini img { height:130px; min-height:130px; } .feature-mini-copy { padding:12px; } .feature-mini h3 { font-size:13px; } .fast-news-items { grid-template-columns:1fr; gap:10px; } .fast-news-item { border-right:0; border-bottom:1px solid #d5e5f6; padding:0 0 10px; grid-template-columns:80px 1fr; } .fast-news-item:last-child { border-bottom:0; padding-bottom:0; } .fast-news-item img { height:60px; } .fast-news-item button { font-size:12px; } .section-heading.with-tabs { flex-wrap:wrap; } .sort-tabs { margin-left:auto; } .article-grid { grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; } .article-copy h3 { font-size:13px; } .article-copy p { font-size:10px; } .image-button img { height:125px; } .side-stack { grid-template-columns:1fr; } .popular-box { padding:17px; } .popular-list { display:grid; grid-template-columns:1fr 1fr; column-gap:15px; } .popular-list li+li { border-top:0; } .popular-list button,.popular-article-link { min-height:64px; border-bottom:1px solid rgba(255,255,255,.15); font-size:10px; } .popular-number { width:31px; height:31px; font-size:12px; } .wellness-section { padding:15px; } .wellness-grid { grid-template-columns:1fr; gap:12px; } .wellness-card { display:grid; grid-template-columns:37% 63%; } .wellness-card img { height:100%; min-height:145px; } .wellness-copy { padding:12px; } .wellness-copy h3 { font-size:14px; } .footer-grid { grid-template-columns:repeat(2,minmax(0,1fr)); gap:23px 18px; } .footer-about { grid-column:1/-1; } .footer-bottom { flex-direction:column; gap:7px; } .modal-image { height:190px; } .modal-content { padding:20px; }
+    }
+    @media (max-width:420px) {
+      .shell { width:calc(100% - 22px); } .brand { flex-basis:230px; } .brand-name { font-size:17px; letter-spacing:-.5px; } .brand-mark { width:37px; height:37px; font-size:21px; } .brand-tagline { font-size:8px; letter-spacing:.8px; } .editorial-hero { min-height:300px; } .hero-copy { padding-left:18px; padding-right:18px; } .eyebrow { font-size:10px; letter-spacing:1.3px; } .hero-subtitle span { padding:0 4px; } .feature-main { grid-template-columns:1fr; } .feature-image { min-height:160px; max-height:175px; } .feature-text { padding:16px; } .feature-text h3 { font-size:23px; } .feature-side { gap:9px; } .feature-mini img { height:95px; min-height:95px; } .feature-mini-copy { padding:9px; } .feature-mini h3 { font-size:12px; } .article-grid { gap:9px; } .image-button img { height:105px; } .article-copy { padding:9px; } .article-copy h3 { font-size:12px; } .article-copy p { font-size:10px; line-height:1.4; } .article-meta { font-size:9px; flex-wrap:wrap; } .sort-tab { padding:7px 9px; } .sort-tabs { gap:2px; } .section-heading h2 { font-size:21px; } .wellness-card { grid-template-columns:35% 65%; } .wellness-card img { min-height:155px; } .footer-grid { gap:20px 12px; }
+    }
+    @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } *,*::before,*::after { transition:none!important; animation:none!important; } }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="shell topline">
+      <a class="brand" href="#top" aria-label="Tạp chí thể thao 24h – Trang chủ">
+        <span class="brand-mark">24</span><span><span class="brand-name">TẠP CHÍ <span>THỂ THAO 24H</span></span><span class="brand-tagline">TIN THỂ THAO • SỐNG KHỎE</span></span>
+      </a>
+      <form class="search-form" id="searchForm" role="search"><label class="sr-only" for="siteSearch">Tìm bài viết</label><input id="siteSearch" type="search" placeholder="Tìm bài viết, kiến thức thể thao..." autocomplete="off"><button type="submit" aria-label="Tìm kiếm">⌕</button></form>
+      <form class="search-form mobile-search" id="mobileSearchForm" role="search"><label class="sr-only" for="mobileSearch">Tìm bài viết</label><input id="mobileSearch" type="search" placeholder="Tìm bài viết, kiến thức thể thao..." autocomplete="off"><button type="submit" aria-label="Tìm kiếm">⌕</button></form>
+    </div>
+    <div class="nav-row"><nav class="shell nav-inner" aria-label="Chuyên mục tạp chí">
+      <a class="nav-link active" href="#top">Trang chủ</a>
+      <a class="nav-link" href="#latest">Tin mới</a>
+      <a class="nav-link" href="#latest" data-filter="Chạy bộ">Chạy bộ</a>
+      <a class="nav-link" href="#latest" data-filter="Gym &amp; Fitness">Gym &amp; Fitness</a>
+      <a class="nav-link" href="#latest" data-filter="Pickleball">Pickleball</a>
+      <a class="nav-link" href="#latest" data-filter="Dinh dưỡng">Dinh dưỡng</a>
+      <a class="nav-link" href="#latest" data-filter="Đánh giá gear">Đánh giá gear</a>
+      <a class="nav-link" href="#wellness">Sống khỏe</a>
+    </nav></div>
+  </header>
+
+  <main id="top" class="shell">
+    <section class="editorial-hero" aria-labelledby="pageTitle">
+      <div class="hero-copy"><div class="eyebrow">TẠP CHÍ THỂ THAO 24H</div><h1 id="pageTitle">TẠP CHÍ THỂ THAO <em>24H</em></h1><p class="hero-subtitle">Tin thể thao <span>•</span> Kiến thức <span>•</span> Phong cách sống khỏe</p><a class="button-lime" href="#latest">CẬP NHẬT MỖI NGÀY <span>→</span></a></div>
+      <div class="hero-decoration" aria-hidden="true"></div><img class="hero-image" src="https://images.unsplash.com/photo-1772475625548-7e90baff34e7?auto=format&amp;fit=crop&amp;w=1500&amp;q=85" alt="Vận động viên chạy bộ trong trang phục thể thao xanh" fetchpriority="high"><div class="hero-overlay"></div><div class="hero-bottom-note"><span>⚡</span> NĂNG ĐỘNG MỖI NGÀY</div>
+    </section>
+
+    <nav class="categories" aria-label="Lọc theo chuyên mục" id="categoryFilters">
+      <button class="category-pill active" data-filter="Tất cả">Tất cả</button><button class="category-pill" data-filter="Tin thể thao">Tin thể thao</button><button class="category-pill" data-filter="Bóng đá">Bóng đá</button><button class="category-pill" data-filter="Chạy bộ">Chạy bộ</button><button class="category-pill" data-filter="Gym & Fitness">Gym & Fitness</button><button class="category-pill" data-filter="Pickleball">Pickleball</button><button class="category-pill" data-filter="Cầu lông">Cầu lông</button><button class="category-pill" data-filter="Sức khỏe">Sức khỏe</button><button class="category-pill" data-filter="Dinh dưỡng">Dinh dưỡng</button><button class="category-pill" data-filter="Đánh giá gear">Đánh giá gear</button>
+    </nav>
+
+    <section class="section" aria-labelledby="featuredHeading">
+      <div class="section-heading"><h2 id="featuredHeading">BÀI NỔI BẬT</h2><span class="section-spacer"></span><a class="view-all" href="#latest">Xem tất cả →</a></div>
+      <div class="feature-layout">
+        <article class="feature-main">
+          <img class="feature-image" src="https://images.unsplash.com/photo-1623018996682-717d5c453907?auto=format&amp;fit=crop&amp;w=1200&amp;q=85" alt="Đôi giày chạy bộ thể thao màu xám vàng được chụp cận cảnh" loading="eager">
+          <div class="feature-text"><span class="red-label">BÀI CHUYÊN SÂU</span><h3>Cách chọn giày chạy bộ cho người mới: 7 tiêu chí cần biết</h3><p>Chọn giày theo mục tiêu, địa hình, size, độ đệm và ngân sách bằng 7 tiêu chí thực tế dành cho người mới bắt đầu.</p><div class="meta-line"><span>◷ 8–10 phút đọc</span><span>•</span><span>▢ Hướng dẫn chi tiết</span></div><a class="button-lime" href="./cach-chon-giay-chay-bo-cho-nguoi-moi.html">Đọc bài chuyên sâu <span>→</span></a></div>
+        </article>
+        <div class="feature-side">
+          <article class="feature-mini"><img src="https://images.pexels.com/photos/29439338/pexels-photo-29439338.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1000" alt="Người chơi pickleball trên sân" loading="lazy"><div class="feature-mini-copy"><span class="tag">Pickleball</span><h3><button class="title-link article-open" type="button" data-article="pickleball-basics">Kỹ thuật đánh pickleball hiệu quả cho người mới</button></h3><div class="meta-line">◷ 8 phút đọc &nbsp;•&nbsp; Hôm nay</div></div></article>
+          <article class="feature-mini"><img src="https://images.unsplash.com/photo-1661439193765-392d81462003?auto=format&amp;fit=crop&amp;w=1000&amp;q=85" alt="Tập luyện sức mạnh trong phòng gym" loading="lazy"><div class="feature-mini-copy"><span class="tag">Gym & Fitness</span><h3><button class="title-link article-open" type="button" data-article="gym-full-body">5 bài tập gym cơ bản dành cho người mới</button></h3><div class="meta-line">◷ 7 phút đọc &nbsp;•&nbsp; Hôm nay</div></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section fast-news" aria-labelledby="fastNewsHeading">
+      <div class="fast-news-head"><span class="lightning">ϟ</span><h2 id="fastNewsHeading" style="margin:0;font-size:16px;">TIN THỂ THAO 24H</h2><span class="section-spacer"></span><a class="view-all" href="#latest">Xem tất cả →</a></div>
+      <div class="fast-news-items">
+        <div class="fast-news-item"><img src="https://images.pexels.com/photos/35214632/pexels-photo-35214632.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=800" alt="Khoảnh khắc thi đấu thể thao" loading="lazy"><div><div class="news-time"><b>GỢI Ý</b> 08:30</div><button class="article-open" type="button" data-article="running-5k">Cách xây thói quen vận động đều đặn mỗi tuần</button></div></div>
+        <div class="fast-news-item"><img src="https://images.pexels.com/photos/29439333/pexels-photo-29439333.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1000" alt="Người chơi thể thao dùng vợt" loading="lazy"><div><div class="news-time"><b>MỚI</b> 10:15</div><button class="article-open" type="button" data-article="pickleball-basics">Pickleball: các kỹ thuật nền tảng nên biết</button></div></div>
+        <div class="fast-news-item"><img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&amp;fit=crop&amp;w=1000&amp;q=85" alt="Tập luyện trong phòng gym" loading="lazy"><div><div class="news-time"><b>GỢI Ý</b> 12:45</div><button class="article-open" type="button" data-article="gym-full-body">Làm quen với lịch tập gym cho người mới</button></div></div>
+      </div>
+    </section>
+
+    <section class="section" id="latest" aria-labelledby="latestHeading">
+      <div class="latest-layout">
+        <div class="latest-main">
+          <div class="section-heading with-tabs"><h2 id="latestHeading">BÀI VIẾT MỚI NHẤT</h2><span class="section-spacer"></span><div class="sort-tabs" role="group" aria-label="Sắp xếp bài viết"><button class="sort-tab active" data-sort="latest">Mới nhất</button><button class="sort-tab" data-sort="popular">Đọc nhiều</button></div></div>
+          <p class="result-note" id="resultNote" aria-live="polite">Khám phá các bài viết thể thao và sống khỏe được biên tập cho bạn.</p>
+          <div class="article-grid" id="articleGrid"><article class="article-card seo-article-card" data-category="Đánh giá gear" data-title="cách chọn giày chạy bộ cho người mới 7 tiêu chí cần biết" data-views="1450" data-date="14/10/2026">
+          <a class="image-button" href="./cach-chon-giay-chay-bo-cho-nguoi-moi.html" aria-label="Đọc bài SEO: Cách chọn giày chạy bộ cho người mới"><img src="https://images.unsplash.com/photo-1623018996682-717d5c453907?auto=format&amp;fit=crop&amp;w=1000&amp;q=85" alt="Đôi giày chạy bộ thể thao màu xám vàng được chụp cận cảnh" loading="lazy"><span class="image-arrow">↗</span></a>
+          <div class="article-copy"><span class="tag">Bài chuyên sâu · Đánh giá gear</span><h3><a class="title-link" href="./cach-chon-giay-chay-bo-cho-nguoi-moi.html">Cách chọn giày chạy bộ cho người mới: 7 tiêu chí cần biết</a></h3><p>Hướng dẫn chi tiết về size, form chân, độ đệm, địa hình, ngân sách và cách thử giày trước khi mua.</p><div class="article-meta"><span>◷ 14/10/2026</span><i>•</i><span>8–10 phút đọc</span></div></div>
+        </article>
+        <article class="article-card" data-category="Chạy bộ" data-title="hướng dẫn chạy bộ 5k cho người mới bắt đầu" data-views="980" data-date="12/10/2026">
+          <button class="image-button article-open" type="button" data-article="running-5k" aria-label="Đọc bài: Hướng dẫn chạy bộ 5K cho người mới bắt đầu"><img src="https://images.unsplash.com/photo-1771166446975-2e9e9a9cd3d0?auto=format&amp;fit=crop&amp;w=1000&amp;q=85" alt="Chạy bộ – Hướng dẫn chạy bộ 5K cho người mới bắt đầu" loading="lazy"><span class="image-arrow">↗</span></button>
+          <div class="article-copy"><span class="tag">Chạy bộ</span><h3><button class="title-link article-open" type="button" data-article="running-5k">Hướng dẫn chạy bộ 5K cho người mới bắt đầu</button></h3><p>Lộ trình đơn giản, dễ áp dụng giúp bạn làm quen với chạy bộ và cải thiện sức khỏe hiệu quả.</p><div class="article-meta"><span>◷ 12/10/2026</span><i>•</i><span>6 phút đọc</span></div></div>
+        </article>
+<article class="article-card" data-category="Pickleball" data-title="kỹ thuật giao bóng pickleball chuẩn xác và hiệu quả" data-views="790" data-date="11/10/2026">
+          <button class="image-button article-open" type="button" data-article="pickleball-basics" aria-label="Đọc bài: Kỹ thuật giao bóng Pickleball chuẩn xác và hiệu quả"><img src="https://images.pexels.com/photos/29439333/pexels-photo-29439333.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1000" alt="Pickleball – Kỹ thuật giao bóng Pickleball chuẩn xác và hiệu quả" loading="lazy"><span class="image-arrow">↗</span></button>
+          <div class="article-copy"><span class="tag">Pickleball</span><h3><button class="title-link article-open" type="button" data-article="pickleball-basics">Kỹ thuật giao bóng Pickleball chuẩn xác và hiệu quả</button></h3><p>Nắm vững kỹ thuật giao bóng giúp bạn kiểm soát trận đấu và tạo lợi thế ngay từ đầu.</p><div class="article-meta"><span>◷ 11/10/2026</span><i>•</i><span>8 phút đọc</span></div></div>
+        </article>
+<article class="article-card" data-category="Gym & Fitness" data-title="bài tập gym toàn thân cho người mới" data-views="1200" data-date="10/10/2026">
+          <button class="image-button article-open" type="button" data-article="gym-full-body" aria-label="Đọc bài: Bài tập gym toàn thân cho người mới"><img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&amp;fit=crop&amp;w=1000&amp;q=85" alt="Gym & Fitness – Bài tập gym toàn thân cho người mới" loading="lazy"><span class="image-arrow">↗</span></button>
+          <div class="article-copy"><span class="tag">Gym & Fitness</span><h3><button class="title-link article-open" type="button" data-article="gym-full-body">Bài tập gym toàn thân cho người mới</button></h3><p>Lộ trình 3 buổi mỗi tuần giúp bạn cải thiện sức mạnh, tăng sức bền và hình thành thói quen vận động.</p><div class="article-meta"><span>◷ 10/10/2026</span><i>•</i><span>7 phút đọc</span></div></div>
+        </article>
+<article class="article-card" data-category="Đánh giá gear" data-title="top 5 tiêu chí chọn giày chạy bộ tốt nhất cho năm 2026" data-views="870" data-date="09/10/2026">
+          <button class="image-button article-open" type="button" data-article="running-shoes" aria-label="Đọc bài: Top 5 tiêu chí chọn giày chạy bộ tốt nhất cho năm 2026"><img src="https://images.unsplash.com/photo-1623018996682-717d5c453907?auto=format&amp;fit=crop&amp;w=1000&amp;q=85" alt="Đánh giá gear – Top 5 tiêu chí chọn giày chạy bộ tốt nhất cho năm 2026" loading="lazy"><span class="image-arrow">↗</span></button>
+          <div class="article-copy"><span class="tag">Đánh giá gear</span><h3><button class="title-link article-open" type="button" data-article="running-shoes">Top 5 tiêu chí chọn giày chạy bộ tốt nhất cho năm 2026</button></h3><p>Tổng hợp những tiêu chí cần cân nhắc để chọn đôi giày phù hợp với bàn chân và thói quen chạy.</p><div class="article-meta"><span>◷ 09/10/2026</span><i>•</i><span>6 phút đọc</span></div></div>
+        </article>
+<article class="article-card" data-category="Dinh dưỡng" data-title="dinh dưỡng thể thao: ăn gì để tăng hiệu suất?" data-views="1050" data-date="08/10/2026">
+          <button class="image-button article-open" type="button" data-article="sports-nutrition" aria-label="Đọc bài: Dinh dưỡng thể thao: Ăn gì để tăng hiệu suất?"><img src="https://images.unsplash.com/photo-1644704170910-a0cdf183649b?auto=format&amp;fit=crop&amp;w=1000&amp;q=85" alt="Dinh dưỡng – Dinh dưỡng thể thao: Ăn gì để tăng hiệu suất?" loading="lazy"><span class="image-arrow">↗</span></button>
+          <div class="article-copy"><span class="tag">Dinh dưỡng</span><h3><button class="title-link article-open" type="button" data-article="sports-nutrition">Dinh dưỡng thể thao: Ăn gì để tăng hiệu suất?</button></h3><p>Gợi ý cách cân đối bữa ăn để nạp năng lượng, phục hồi và duy trì tập luyện đều đặn.</p><div class="article-meta"><span>◷ 08/10/2026</span><i>•</i><span>7 phút đọc</span></div></div>
+        </article>
+<article class="article-card" data-category="Phục hồi" data-title="phục hồi sau tập: những điều bạn không nên bỏ qua" data-views="690" data-date="07/10/2026">
+          <button class="image-button article-open" type="button" data-article="post-workout-recovery" aria-label="Đọc bài: Phục hồi sau tập: Những điều bạn không nên bỏ qua"><img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&amp;fit=crop&amp;w=1000&amp;q=85" alt="Phục hồi – Phục hồi sau tập: Những điều bạn không nên bỏ qua" loading="lazy"><span class="image-arrow">↗</span></button>
+          <div class="article-copy"><span class="tag">Phục hồi</span><h3><button class="title-link article-open" type="button" data-article="post-workout-recovery">Phục hồi sau tập: Những điều bạn không nên bỏ qua</button></h3><p>Các phương pháp đơn giản giúp cơ thể hồi phục tốt hơn và hạn chế tình trạng quá tải.</p><div class="article-meta"><span>◷ 07/10/2026</span><i>•</i><span>5 phút đọc</span></div></div>
+        </article><div class="empty-state" id="emptyState">Không tìm thấy bài viết phù hợp. Hãy thử từ khóa hoặc chuyên mục khác nhé.</div></div>
+        </div>
+        <aside class="side-stack" aria-label="Nội dung được quan tâm">
+          <section class="popular-box" id="popular"><h3>ĐƯỢC QUAN TÂM</h3><ol class="popular-list">
+            <li><button class="article-open" data-article="running-5k"><span class="popular-number">01</span><span>Chạy bộ đúng cách: Bắt đầu từ đâu để bền sức hơn?</span></button></li>
+            <li><button class="article-open" data-article="pickleball-basics"><span class="popular-number">02</span><span>Kỹ thuật đánh pickleball hiệu quả cho người mới</span></button></li>
+            <li><button class="article-open" data-article="sports-nutrition"><span class="popular-number">03</span><span>Dinh dưỡng thể thao: Ăn gì để tăng hiệu suất?</span></button></li>
+            <li><button class="article-open" data-article="gym-full-body"><span class="popular-number">04</span><span>Bài tập gym toàn thân cho người mới</span></button></li>
+            <li><a class="popular-article-link" href="./cach-chon-giay-chay-bo-cho-nguoi-moi.html"><span class="popular-number">05</span><span>Cách chọn giày chạy bộ cho người mới: 7 tiêu chí cần biết</span></a></li>
+          </ol></section>
+          <section class="topic-box"><h3>CHỦ ĐỀ NỔI BẬT</h3><div class="topic-list"><button data-filter="Chạy bộ">Chạy bộ</button><button data-filter="Gym & Fitness">Gym & Fitness</button><button data-filter="Pickleball">Pickleball</button><button data-filter="Bóng đá">Bóng đá</button><button data-filter="Dinh dưỡng">Dinh dưỡng</button><button data-filter="Sức khỏe">Sức khỏe</button><button data-filter="Đánh giá gear">Đánh giá gear</button><button data-filter="Cầu lông">Cầu lông</button></div></section>
+          <section class="newsletter-box"><div class="newsletter-title"><span class="newsletter-icon">✉</span><div><h3>Nhận tin thể thao mỗi tuần</h3><p>Đừng bỏ lỡ những bài viết hay nhất!</p></div></div><form id="newsletterForm"><label class="sr-only" for="newsletterEmail">Email của bạn</label><input id="newsletterEmail" type="email" placeholder="Nhập email của bạn" required><button class="button-lime" type="submit">Đăng ký nhận tin</button><p class="form-message" id="newsletterMessage" hidden></p></form></section>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section wellness-section" id="wellness" aria-labelledby="wellnessHeading">
+      <div class="section-heading"><h2 id="wellnessHeading">CẨM NANG SỐNG KHỎE</h2><span class="section-spacer"></span><a class="view-all" href="#latest">Xem tất cả →</a></div>
+      <div class="wellness-grid">
+        <article class="wellness-card"><img src="https://images.unsplash.com/photo-1546069901-d5bfd2cbfb1f?auto=format&amp;fit=crop&amp;w=1000&amp;q=85" alt="Bữa ăn cân bằng với rau xanh và thực phẩm giàu dinh dưỡng" loading="lazy"><div class="wellness-copy"><span class="tag">Dinh dưỡng</span><h3>Ăn uống khoa học – Nạp năng lượng, tối ưu hiệu suất</h3><p>Khám phá cách xây dựng chế độ dinh dưỡng phù hợp cho từng mục tiêu thể thao.</p><button class="read-more article-open" data-article="sports-nutrition">Đọc thêm →</button></div></article>
+        <article class="wellness-card"><img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&amp;fit=crop&amp;w=1000&amp;q=85" alt="Động tác kéo giãn cơ sau khi vận động" loading="lazy"><div class="wellness-copy"><span class="tag">Phục hồi</span><h3>Phục hồi cơ thể – Chìa khóa cho hành trình bền bỉ</h3><p>Những phương pháp đơn giản giúp bạn phục hồi nhanh và giảm nguy cơ quá tải.</p><button class="read-more article-open" data-article="post-workout-recovery">Đọc thêm →</button></div></article>
+        <article class="wellness-card"><img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&amp;fit=crop&amp;w=1000&amp;q=85" alt="Vận động viên tập luyện tại phòng gym" loading="lazy"><div class="wellness-copy"><span class="tag">Luyện tập</span><h3>Luyện tập thông minh – Hiệu quả thật</h3><p>Từ kỹ thuật đến lịch tập, tất cả những gì bạn cần để tiến bộ mỗi ngày.</p><button class="read-more article-open" data-article="gym-full-body">Đọc thêm →</button></div></article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="footer"><div class="shell"><div class="footer-grid">
+    <div class="footer-about"><a class="brand" href="#top" aria-label="Tạp chí thể thao 24h – Trang chủ"><span class="brand-mark">24</span><span><span class="brand-name">TẠP CHÍ <span>THỂ THAO 24H</span></span><span class="brand-tagline">TIN THỂ THAO • SỐNG KHỎE</span></span></a><p>Tạp chí độc lập về tin thể thao, kiến thức vận động, dinh dưỡng và phong cách sống khỏe. Cùng bạn vận động an toàn và bền bỉ hơn mỗi ngày.</p><div class="socials"><a href="#footer" aria-label="Facebook">f</a><a href="#footer" aria-label="YouTube">▶</a><a href="#footer" aria-label="Instagram">◎</a><a href="#footer" aria-label="TikTok">♪</a></div></div>
+    <div class="footer-col"><h4>Chuyên mục</h4><a href="#latest">Tin mới</a><a href="#latest" data-filter="Chạy bộ">Chạy bộ</a><a href="#latest" data-filter="Gym &amp; Fitness">Gym &amp; Fitness</a><a href="#latest" data-filter="Pickleball">Pickleball</a></div>
+    <div class="footer-col"><h4>Kiến thức</h4><a href="#wellness">Sống khỏe</a><a href="#latest" data-filter="Dinh dưỡng">Dinh dưỡng</a><a href="#latest" data-filter="Phục hồi">Phục hồi</a><a href="#latest" data-filter="Đánh giá gear">Đánh giá gear</a></div>
+    <div class="footer-col"><h4>Đọc thêm</h4><a href="#popular">Bài được quan tâm</a><a href="#latest">Bài viết mới nhất</a><a href="./cach-chon-giay-chay-bo-cho-nguoi-moi.html">Cẩm nang chọn giày chạy bộ</a><a href="#top">Về đầu trang ↑</a></div>
+  </div><p class="photo-credit-row">Ảnh thể thao: <a href="https://unsplash.com/" target="_blank" rel="noopener noreferrer">Unsplash</a> · <a href="https://www.pexels.com/" target="_blank" rel="noopener noreferrer">Pexels</a>. Vui lòng xem trang nguồn/giấy phép của từng ảnh trước khi sử dụng trong chiến dịch thương mại.</p><div class="footer-bottom"><span>© 2026 Tạp chí thể thao 24h. Nội dung được biên tập độc lập.</span><span>Tin thể thao · Kiến thức · Sống khỏe</span></div></div></footer>
+  <button class="back-top" id="backTop" type="button" aria-label="Lên đầu trang">↑</button>
+  <div class="modal-backdrop" id="articleModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><div class="article-modal"><button type="button" class="modal-close" id="modalClose" aria-label="Đóng bài viết">×</button><img id="modalImage" class="modal-image" src="https://images.unsplash.com/photo-1771166446975-2e9e9a9cd3d0?auto=format&amp;fit=crop&amp;w=1200&amp;q=85" alt="Ảnh minh họa bài viết thể thao"><div class="modal-content"><span id="modalCategory" class="tag">Chuyên mục</span><h2 id="modalTitle">Tiêu đề bài viết</h2><div id="modalMeta" class="meta-line"></div><div id="modalBody" class="modal-body"></div><p style="margin:18px 0 0;color:#8294aa;font-size:11px;">Các bài viết cung cấp kiến thức tham khảo; hãy điều chỉnh cường độ vận động theo thể trạng và hướng dẫn chuyên môn khi cần.</p></div></div></div>
+
+  <script>
+    const ARTICLE_DATA = [{"id": "running-5k", "category": "Chạy bộ", "title": "Hướng dẫn chạy bộ 5K cho người mới bắt đầu", "excerpt": "Lộ trình đơn giản, dễ áp dụng giúp bạn làm quen với chạy bộ và cải thiện sức khỏe hiệu quả.", "date": "12/10/2026", "read": "6 phút đọc", "views": 980, "img": "running-card.jpg", "body": "Bắt đầu với cự ly 5K không có nghĩa là bạn phải chạy liên tục ngay từ buổi đầu. Hãy xen kẽ đi bộ nhanh và chạy chậm, tăng thời lượng từng bước, đồng thời ưu tiên cảm giác thoải mái thay vì tốc độ.\n\nTrước buổi tập, dành vài phút khởi động cổ chân, gối và hông. Sau buổi tập, đi bộ thả lỏng và ghi lại cảm nhận để điều chỉnh lịch tập tuần kế tiếp.\n\nĐiều quan trọng nhất là duy trì nhịp độ phù hợp, chọn giày vừa chân và cho cơ thể đủ thời gian hồi phục."}, {"id": "pickleball-basics", "category": "Pickleball", "title": "Kỹ thuật giao bóng Pickleball chuẩn xác và hiệu quả", "excerpt": "Nắm vững kỹ thuật giao bóng giúp bạn kiểm soát trận đấu và tạo lợi thế ngay từ đầu.", "date": "11/10/2026", "read": "8 phút đọc", "views": 790, "img": "pickleball-card.jpg", "body": "Một cú giao bóng tốt cần sự ổn định hơn là lực đánh quá mạnh. Hãy đứng vững, giữ tay cầm vợt thoải mái, đánh bóng ở điểm tiếp xúc dễ kiểm soát và hướng mục tiêu rõ ràng.\n\nTập giao bóng theo từng nhóm nhỏ: độ chính xác, độ sâu và khả năng lặp lại. Đừng quên khởi động cổ tay, vai trước khi tập và tuân thủ luật giao bóng của giải đấu bạn tham gia."}, {"id": "gym-full-body", "category": "Gym & Fitness", "title": "Bài tập gym toàn thân cho người mới", "excerpt": "Lộ trình 3 buổi mỗi tuần giúp bạn cải thiện sức mạnh, tăng sức bền và hình thành thói quen vận động.", "date": "10/10/2026", "read": "7 phút đọc", "views": 1200, "img": "gym-card.jpg", "body": "Người mới nên ưu tiên kỹ thuật chuẩn và các động tác nền tảng như squat, hip hinge, kéo, đẩy và bài tập thân trung tâm. Bắt đầu với mức tạ vừa sức, nghỉ đủ giữa các hiệp và tăng tải từ từ.\n\nMột lịch tập dễ duy trì có thể gồm ba buổi toàn thân mỗi tuần, xen kẽ ngày nghỉ hoặc vận động nhẹ. Nếu có đau bất thường, hãy dừng bài tập và tìm tư vấn chuyên môn."}, {"id": "running-shoes", "category": "Đánh giá gear", "title": "Top 5 tiêu chí chọn giày chạy bộ tốt nhất cho năm 2026", "excerpt": "Tổng hợp những tiêu chí cần cân nhắc để chọn đôi giày phù hợp với bàn chân và thói quen chạy.", "date": "09/10/2026", "read": "6 phút đọc", "views": 870, "img": "shoes.jpg", "body": "Đừng chọn giày chỉ vì kiểu dáng. Hãy chú ý độ vừa vặn ở mũi chân, độ ổn định gót, cảm giác đệm khi tiếp đất và bề mặt chạy thường xuyên.\n\nNên thử giày vào thời điểm bàn chân hơi nở, mang loại tất bạn thường dùng khi chạy và đi thử vài phút. Mỗi người có hình dáng bàn chân và sở thích khác nhau, vì vậy không có một mẫu giày tốt nhất cho tất cả."}, {"id": "sports-nutrition", "category": "Dinh dưỡng", "title": "Dinh dưỡng thể thao: Ăn gì để tăng hiệu suất?", "excerpt": "Gợi ý cách cân đối bữa ăn để nạp năng lượng, phục hồi và duy trì tập luyện đều đặn.", "date": "08/10/2026", "read": "7 phút đọc", "views": 1050, "img": "nutrition.jpg", "body": "Bữa ăn hỗ trợ tập luyện nên cân bằng giữa tinh bột, nguồn đạm, chất béo phù hợp, rau củ và nước. Thời điểm ăn có thể điều chỉnh theo lịch tập, cảm giác tiêu hóa và mục tiêu cá nhân.\n\nKhông cần chạy theo chế độ ăn phức tạp. Hãy xây dựng nền tảng từ bữa ăn đa dạng, đủ năng lượng và thói quen uống nước. Người có bệnh lý hoặc mục tiêu dinh dưỡng đặc biệt nên tham khảo chuyên gia."}, {"id": "post-workout-recovery", "category": "Phục hồi", "title": "Phục hồi sau tập: Những điều bạn không nên bỏ qua", "excerpt": "Các phương pháp đơn giản giúp cơ thể hồi phục tốt hơn và hạn chế tình trạng quá tải.", "date": "07/10/2026", "read": "5 phút đọc", "views": 690, "img": "recovery.jpg", "body": "Phục hồi là một phần của kế hoạch tập luyện. Ngủ đủ, ăn uống phù hợp, uống đủ nước và bố trí ngày nhẹ giúp cơ thể thích nghi với khối lượng vận động.\n\nĐau cơ nhẹ sau buổi tập có thể xuất hiện, nhưng đau nhói, sưng nhiều hoặc đau kéo dài không nên bị bỏ qua. Hãy giảm tải và tìm lời khuyên chuyên môn khi cần."}];
+    const grid = document.getElementById('articleGrid');
+    const emptyState = document.getElementById('emptyState');
+    const resultNote = document.getElementById('resultNote');
+    const cards = Array.from(grid.querySelectorAll('.article-card'));
+    const filterButtons = Array.from(document.querySelectorAll('[data-filter]'));
+    let currentFilter = 'Tất cả';
+    let currentSearch = '';
+    let currentSort = 'latest';
+    const parseDate = (value) => { const [d,m,y] = value.split('/').map(Number); return new Date(y,m-1,d).getTime(); };
+
+    function applyFilters() {
+      let visible = 0;
+      const filtered = cards.filter(card => {
+        const categoryMatch = currentFilter === 'Tất cả' || card.dataset.category === currentFilter || (currentFilter === 'Sức khỏe' && ['Phục hồi','Dinh dưỡng'].includes(card.dataset.category)) || (currentFilter === 'Tin thể thao' && ['Bóng đá','Cầu lông','Pickleball'].includes(card.dataset.category));
+        const searchMatch = !currentSearch || (card.dataset.title + ' ' + card.innerText.toLowerCase()).includes(currentSearch);
+        const show = categoryMatch && searchMatch;
+        card.style.display = show ? 'flex' : 'none';
+        if (show) visible++;
+        return show;
+      });
+      filtered.sort((a,b) => currentSort === 'popular' ? Number(b.dataset.views)-Number(a.dataset.views) : parseDate(b.dataset.date)-parseDate(a.dataset.date));
+      filtered.forEach(card => grid.insertBefore(card, emptyState));
+      emptyState.style.display = visible ? 'none' : 'block';
+      resultNote.textContent = currentSearch || currentFilter !== 'Tất cả' ? `Tìm thấy ${visible} bài viết phù hợp${currentFilter !== 'Tất cả' ? ' trong chuyên mục ' + currentFilter : ''}${currentSearch ? ' với từ khóa “' + currentSearch + '”' : ''}.` : (currentSort === 'popular' ? 'Các bài viết được quan tâm nhiều trong danh mục.' : 'Khám phá các bài viết thể thao và sống khỏe được biên tập cho bạn.');
+      document.querySelectorAll('.category-pill').forEach(btn => btn.classList.toggle('active', btn.dataset.filter === currentFilter));
+    }
+    function setSearch(value) { currentSearch = value.trim().toLowerCase(); applyFilters(); if (currentSearch) document.getElementById('latest').scrollIntoView({behavior:'smooth',block:'start'}); }
+    document.getElementById('searchForm').addEventListener('submit', e => { e.preventDefault(); const val = document.getElementById('siteSearch').value; document.getElementById('mobileSearch').value=val; setSearch(val); });
+    document.getElementById('mobileSearchForm').addEventListener('submit', e => { e.preventDefault(); const val = document.getElementById('mobileSearch').value; document.getElementById('siteSearch').value=val; setSearch(val); });
+    document.getElementById('siteSearch').addEventListener('input', e => { document.getElementById('mobileSearch').value=e.target.value; currentSearch=e.target.value.trim().toLowerCase(); applyFilters(); });
+    document.getElementById('mobileSearch').addEventListener('input', e => { document.getElementById('siteSearch').value=e.target.value; currentSearch=e.target.value.trim().toLowerCase(); applyFilters(); });
+    filterButtons.forEach(btn => btn.addEventListener('click', () => { currentFilter=btn.dataset.filter; applyFilters(); document.getElementById('latest').scrollIntoView({behavior:'smooth',block:'start'}); }));
+    document.querySelectorAll('[data-sort]').forEach(btn => btn.addEventListener('click', () => { currentSort=btn.dataset.sort; document.querySelectorAll('[data-sort]').forEach(b=>b.classList.toggle('active',b===btn)); applyFilters(); }));
+
+    const modal = document.getElementById('articleModal');
+    function openArticle(id) {
+      const article=ARTICLE_DATA.find(item=>item.id===id);
+      if (!article) return;
+      const card=cards.find(node=>node.querySelector(`[data-article="${id}"]`));
+      let src='';
+      if(card) src=card.querySelector('img')?.src || '';
+      if(!src) { const trigger=document.querySelector(`.article-open[data-article="${id}"]`); const articleCard=trigger?.closest('.article-card'); src=articleCard?.querySelector('img')?.src || document.querySelector('.feature-image').src; }
+      document.getElementById('modalImage').src=src;
+      document.getElementById('modalImage').alt=article.title;
+      document.getElementById('modalCategory').textContent=article.category;
+      document.getElementById('modalTitle').textContent=article.title;
+      document.getElementById('modalMeta').textContent=`${article.date}  •  ${article.read}`;
+      document.getElementById('modalBody').textContent=article.body;
+      modal.classList.add('open'); document.body.style.overflow='hidden'; document.getElementById('modalClose').focus();
+    }
+    document.addEventListener('click', e => { const btn=e.target.closest('.article-open'); if(btn) openArticle(btn.dataset.article); });
+    function closeModal() { modal.classList.remove('open'); document.body.style.overflow=''; }
+    document.getElementById('modalClose').addEventListener('click',closeModal);
+    modal.addEventListener('click',e=>{ if(e.target===modal) closeModal(); });
+    document.addEventListener('keydown',e=>{ if(e.key==='Escape') closeModal(); });
+    document.getElementById('newsletterForm').addEventListener('submit', e => {
+      e.preventDefault(); const email=document.getElementById('newsletterEmail'); const message=document.getElementById('newsletterMessage');
+      message.hidden=false; message.textContent='Đã ghi nhận đăng ký trong bản demo. Khi triển khai thật, hãy kết nối biểu mẫu với dịch vụ email.'; email.value='';
+    });
+
+
+    const backTop=document.getElementById('backTop');
+    window.addEventListener('scroll',()=>backTop.classList.toggle('visible',window.scrollY>500),{passive:true});
+    backTop.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'}));
+    applyFilters();
+  </script>
+</body>
+</html>
